@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="ClockTimer\ClockTimer.cpp">
+      <Filter>ClockTimer</Filter>
+    </ClCompile>
+    <ClCompile Include="Lua\Luac.cpp">
+      <Filter>Lua</Filter>
+    </ClCompile>
+    <ClCompile Include="Luabin\Luabin.cpp">
+      <Filter>Luabin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ClockTimer">
+      <UniqueIdentifier>{9104e294-b167-4abd-a8ef-f77dceb959f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Lua">
+      <UniqueIdentifier>{ebc9ec68-0ba6-48c3-819e-02ded3662ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Luabin">
+      <UniqueIdentifier>{4b910334-c4f6-448e-ba5b-1fe2be70d0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{d1810edd-fcac-43de-9f3b-65d4af878549}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ClockTimer\ClockTimer.h">
+      <Filter>ClockTimer</Filter>
+    </ClInclude>
+    <ClInclude Include="Lua\Luac.h">
+      <Filter>Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Luabin\Luabin.h">
+      <Filter>Luabin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="tarai.lua">
+      <Filter>file</Filter>
+    </None>
+  </ItemGroup>
+</Project>
